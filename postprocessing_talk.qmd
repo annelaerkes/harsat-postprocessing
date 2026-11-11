@@ -30,16 +30,18 @@ knitr:
 
 ## The idea
 
-HARSAT saves everything it calculates in one object, which can be saved as an `.rds` file.
+HARSAT keeps data and statistic results in one assessment object. This can be saved as an `.rds` file.
 
-HARSAT has build in functions for tables and plots, but you can also read the object in R and make your own outputs, for example using ggplot2:
+HARSAT has build in functions for tables and plots, but once you have the assessment object you can also make your own outputs in R, for example using ggplot2:
 
 - no need to rerun HARSAT
 - no need to have HARSAT installed
 - a few lines of R for each output
 
+Example on PAHs in blue mussel that we will work with: <https://github.com/annelaerkes/harsat-postprocessing>
+
 ::: notes
-Today's data: PAHs in blue mussel from the Swedish marine programme, three stations. Everything from one file, PAH.rds.
+Today's data: PAHs in blue mussel from the Swedish marine programme, three stations. Everything from one file, PAH.rds. Go to github site an follow the code.
 :::
 
 ## Change these lines for your own data
@@ -368,7 +370,7 @@ The Swedish reporting pipeline has the full report-style figures, with both:
 Always check how your own data looks before using a simplified plot. If a series has many values below LOQ, use the full version.
 :::
 
-## Modifying scripts on github
+## Modifying scripts publicly available on github
 
 ::: {layout-ncol=2}
 
